@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
     s.authors           = { 'lihao' => 'lihao_ios@hotmail.com'}
     s.social_media_url  = 'https://github.com/eggswift'
-    s.platform          = :ios, '8.0'
+    s.platform          = :ios, '9.0'
     s.source            = {:git => 'https://github.com/eggswift/pull-to-refresh.git', :tag => s.version}
     s.source_files      = ['Sources/**/*.{swift}']
     s.resource_bundles  = { 'ESPullToRefresh' => 'Sources/Animator/*.png' }
